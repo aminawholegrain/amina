@@ -6,21 +6,123 @@
     	<meta name="keywords" content="site, keywords, go, here">
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 		<title>Mental Health</title>
-
+		<script src="https://use.fontawesome.com/ed738c9792.js"></script>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
+
 	<body>
-		<div class="site-container">
-			<header class="site-header">
-				<h1>Site title</h1>
-			</header>
+		
+<!-- Page preloader -->
+        <div id="hola">
+        <div id="preloader">
+        <span></span>
+        <span></span>
+          </div>
+            </div>
+
+<!-- Start content -->
+        <div class="page-wrap">
+            <div class="home">
+           
+            <div class="text-wrap"></div>
+                <h1>your brain</h1>
+                <img class="left-brain" src="left-brain.png" alt=""/>
+                <img class="right-brain" src="right-brain.png" alt=""/>
+                
+                </div>
+            </div>
+        </div>
+
+
+<!-- second layout and remaining pages -->
+
+
 			<main class="site-content">
+	<nav class="nav">
+	  <div class="burger">
+	    <div class="burger__patty"></div>
+	  </div>
+
+	  <ul class="nav__list">
+	    <li class="nav__item">
+	      <a href="#1" class="nav__link c-blue"><i class="fa fa-heart-o"></i></a>
+	    </li>
+	    <li class="nav__item">
+	      <a href="#2" class="nav__link c-yellow scrolly"><i class="fa fa-bolt"></i></a>
+	    </li>
+	    <li class="nav__item">
+	      <a href="#3" class="nav__link c-red"><i class="fa fa-book"></i></a>
+	    </li>
+	    <li class="nav__item">
+	      <a href="#4" class="nav__link c-green"><i class="fa fa-user"></i></a>
+	    </li>
+	  </ul>
+	</nav>
+
+	<section class="panel b-yellow" id="1">
+	  <article class="panel__wrapper">
+	    <div class="panel__content">
+	      <h1 class="panel__headline"><i class="fa fa-heart-o"></i>&nbsp;Mindfulness for Kids</h1>
+	      <div class="panel__block"></div>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias ducimus, eos asperiores, ab officia sint nostrum quia, corporis officiis id praesentium expedita numquam ad non error optio est in.</p>
+	    </div>
+	  </article>
+	</section>
+	<section class="panel b-blue" id="2">
+	  <article class="panel__wrapper">
+	    <div class="panel__content">
+	      <h1 class="panel__headline"><i class="fa fa-bolt"></i>&nbsp;Creative Space</h1>
+	      <div class="panel__block"></div>
+
+			    <div class="social">
+				  <a href="canvas.html" class="link facebook" target="_parent"><span class="fa fa-pencil"></span></a>
+
+				  <a href="https://www.youtube.com/watch?v=XiCrniLQGYc" class="link twitter" target="_parent"><span class="fa fa-book"></span></a>
+
+				  <a href="info.html" class="link google-plus" target="_parent"><span class="fa fa-info"></span></a>
+			</div>
+
+	      <p class="blue-text"></p>
+
+	    </div>
+	  </article>
+	</section>
+
+	<section class="panel b-red" id="3">
+	  <article class="panel__wrapper">
+	    <div class="panel__content">
+	      <h1 class="panel__headline"><i class="fa fa-book"></i>&nbsp;Storytelling</h1>
+	      <div class="panel__block"></div>
+	      <p>Beard sriracha kitsch literally, taxidermy normcore aesthetic wayfarers salvia keffiyeh farm-to-table sartorial gluten-free mlkshk. Selvage normcore 3 wolf moon, umami Kickstarter artisan meggings cardigan drinking vinegar bicycle rights.</p>
+	    </div>
+	  </article>
+	</section>
+	<section class="panel b-green" id="4">
+	  <article class="panel__wrapper">
+	    <div class="panel__content">
+	      <h1 class="panel__headline"><i class="fa fa-user"></i>&nbsp;Your Brain</h1>
+	      <div class="panel__block"></div>
+	      <p>90's wayfarers lomo you probably haven't heard of them trust fund banh mi. Flannel Shoreditch dreamcatcher, quinoa flexitarian Banksy pickled post-ironic lo-fi. Photo booth asymmetrical tousled letterpress.</p>
+	    </div>
+	  </article>
+	</section>
+	<a href="http://ettrics.com/code/vertical-layout-navigation/" class="logo" target="_blank">
+	 <img class="logo" src="brain-icon.png" alt="" /> 
+	</a>
 
 			</main>
+<!-- this is for the js site pre and post loader -->
 			
 		</div><!-- .site-container -->
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src='http://julian.com/research/velocity/build/jquery.velocity.min.js'></script>
+		<script src='http://julian.com/research/velocity/build/velocity.ui.js'></script>
+
 		<script src="js/main.js"></script>
+
+	<!-- this is for the burger menu and 4 section display with js -->
+
 	</body>
 </html>
