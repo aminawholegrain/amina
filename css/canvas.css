@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://ani.cursors-4u.net/others/oth-9/oth846.cur), progress !important;} /* End http://www.cursors-4u.com */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Archivo Narrow', sans-serif;
+  border: 3px;
+  border-color: black;
+}
+
+body {
+  border: 25px solid #aadef7;
+  box-sizing: border-box;
+}
+
+canvas {
+  cursor: default;
+}
+
+#save {
+  position: absolute;
+  bottom: 50px;
+  left: 45%;
+  height: auto;
+  width: 100px;
+  margin-left: -75px;
+  background-color: #aadef7;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+#save:hover {
+  background-color: #76cbf2;
+}
+
+#clear {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  height: auto;
+  width: 100px;
+  margin-left: 30px;
+  background-color: pink;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+#clear:hover {
+  background-color: #e8abb5;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: -18px auto 0;
+  color: white;
+  width: 100%;
+  color: #aadef7;
+  text-align: center;
+  font-size: 18px;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE/Edge */
+  user-select: none;
+  /* non-prefixed version, currently
+     not supported by any browser */
+}
+
